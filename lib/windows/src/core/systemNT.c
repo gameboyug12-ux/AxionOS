@@ -26,3 +26,4 @@ typedef struct nt_driver {
     int (*DriverEntry)(void* DriverObject);
     int (*Unload)(void* DriverObject);
 } nt_driver_t;
+            
