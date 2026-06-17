@@ -1,0 +1,32 @@
+﻿title-text: "MyOS Boot"
+title-color: "#00FFAA"
+title-font: "DejaVu Sans Bold 18"
+
+desktop-image: "background.png"
+
+terminal-box: "terminal_box"
+
++ boot_menu {
+    left = 30%
+    top = 25%
+    width = 40%
+    height = 50%
+    item_color = "#FFFFFF"
+    selected_item_color = "#00FFAA"
+    item_height = 30
+    item_spacing = 10
+}
+
++ label {
+    text = "MyOS - System Boot Manager"
+    left = 35%
+    top = 15%
+    color = "#00FFAA"
+    font = "DejaVu Sans 16"
+}
+
++ image {
+    file = "logo.png"
+    left = 45%
+    top = 5%
+}
